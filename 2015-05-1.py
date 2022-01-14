@@ -1,5 +1,4 @@
 import sys
-import hashlib
 
 # A nice string is one with all of the following properties:
 # (DONE)
@@ -8,7 +7,7 @@ import hashlib
 # (DONE)
 # -It contains at least one letter that appears twice in a row,
 #     like xx, abcdde (dd), or aabbccdd (aa, bb, cc, or dd).
-# (TODO)
+# (DONE)
 # -It does not contain the strings ab, cd, pq, or xy, even if 
 #     they are part of one of the other requirements.
 
