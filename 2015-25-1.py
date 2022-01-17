@@ -5,7 +5,7 @@ if __name__ == '__main__':
     print("Input pos=('row col'):\n>", end="")
     for line in sys.stdin:
         line = line.rstrip()
-        if line in ["exit", "q"]:
+        if line in ['exit', 'q']:
             exit()
         else:
             # "200 50" for row 200 col 50
@@ -25,5 +25,4 @@ if __name__ == '__main__':
             else:
                 for i in range(end - 1):
                     current = current * factor % divisor
-                    # print(f"{i}:{current}")
                 print(f"#:{end}|val:{current}\n>", end="")

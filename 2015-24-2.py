@@ -26,7 +26,7 @@ if __name__ == '__main__':
     # )
 
     weight = sum(packages)
-    aim_weight = int(weight/3)
+    aim_weight = int(weight/4)
     candidates = []
 
     for i in range(len(packages)):
