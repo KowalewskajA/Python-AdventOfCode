@@ -1,6 +1,8 @@
 # import re
 import sys
 # from random import randint
+# to run from 2015 directory
+# python3 01-1.py < input/01-1.txt
 
 if __name__ == '__main__':
     sum = 0
